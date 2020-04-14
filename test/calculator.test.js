@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+
 const calculator = require('../src/calculator');
 
 test('returns result of add method', () => {

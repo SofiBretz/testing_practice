@@ -1,5 +1,7 @@
+/* eslint-disable no-undef */
+
 const reverseString = require('../src/reverseString');
 
 test('Returns reversed string', () => {
-  expect(reverseStr('hello there')).toBe('ereht olleh');
+  expect(reverseString('hello there')).toBe('ereht olleh');
 });
