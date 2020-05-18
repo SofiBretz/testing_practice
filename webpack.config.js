@@ -1,6 +1,6 @@
+/* eslint-disable import/no-unresolved */
 const path = require('path');
 const TerserPlugin = require('terser-webpack-plugin');
-
 
 module.exports = {
   entry: './src/index.js',
@@ -25,10 +25,12 @@ module.exports = {
         },
       },
       {
+        test: /\.css$/,
+        use: [{ loader: 'style-loader' }, { loader: 'css-loader' }],
+      },
+      {
         test: /\.(jpg|jpeg|png|gif)$/,
-        use: [
-          { loader: 'url-loader' },
-        ],
+        use: [{ loader: 'url-loader' }],
       },
     ],
   },

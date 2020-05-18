@@ -1,6 +1,6 @@
-# testing_tic_tac_toe
+# testing_practice
 
-> testing_tic_tac_toe, Develop unit tests for an existing project: Tic Tac Toe on JS
+> testing_practice, Develop unit tests for an existing project: Tic Tac Toe on JS
 
 The main goal of this project is testing the JavaScript project, like the concept of pure functions and mocks.
 
